@@ -1,3 +1,5 @@
+## Find more info from Oncoplot documentation: https://www.bioconductor.org/packages/devel/bioc/vignettes/maftools/inst/doc/oncoplots.html
+
 # Install required packages
 if (!requireNamespace("BiocManager", quietly = TRUE)) {
   install.packages("BiocManager")

@@ -21,7 +21,7 @@ clin_data <- read_excel("path/to/your/file.xlsx", sheet = "clin")
 object <- read.maf(maf = maf_data, clinicalData = clin_data)
 
 # Plot oncoplot (top 20 mutated genes by default) with default colors
-oncoplot(maf = maf_object, top = 20)
+oncoplot(maf = object, top = 20)
 
 # Set mutation colors
 my_colors <- c(
@@ -38,5 +38,5 @@ my_colors <- c(
 )
 
 # Plot oncoplot (top 20 mutated genes by default) with defined colors
-oncoplot(maf = maf_object, top = 20, colors = my_colors)
+oncoplot(maf = object, top = 20, colors = my_colors)
 
